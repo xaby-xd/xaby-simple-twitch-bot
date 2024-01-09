@@ -1,2 +1,2 @@
 # xaby-simple-twitch-bot
-Simple twitch bot for simple chat interactions and commands.
+Simple twitch bot for simple chat interactions and commands on Node.js.
