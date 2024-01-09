@@ -5,4 +5,4 @@ For more information about tmi.js follow the official website: https://tmijs.com
 
 I will add more functionallity in the future.
 
-To run the bot you need to set-up the channel that you want to use the bot and use another account for the twitch api and the bot.
+To run the bot you need to set-up the channel that you want to use the bot and use another account for the twitch api and the bot. and use $ node /src/index.js .
