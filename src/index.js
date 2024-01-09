@@ -19,7 +19,7 @@ const client = new tmi.client(options)
 client.connect();
 
 client.on('connected', (address, port) => {
-    client.action('xaby_xd', `Bot is runing now, Usad "!comandos" para ver todos los comandos.`)
+    client.action('{stream suer name}', `Bot is runing now, Use "!commands" to see the command list.`)
 })
 
 /* ${address}:${port}   <- Show the port that will use the bot */
@@ -35,6 +35,9 @@ client.on('chat', (target, ctx, message, self) => {
 
     if (commandName === 'hello') {
         client.say(target, `Hello!! ${ctx.username} hehe blobDance blobDance `);
+    }
+    if (commandName === '!commands') {
+        client.say(target, `${ctx.username}, Here is the command list: hello, !commands`);
     }
 
 
