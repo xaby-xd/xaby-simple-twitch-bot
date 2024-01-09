@@ -1,0 +1,22 @@
+{
+  "name": "CarnashBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env node src/index-pruebas.js"
+  },
+  "keywords": [],
+  "author": "xaby_xd",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.1",
+    "request-promise": "^4.2.6",
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
