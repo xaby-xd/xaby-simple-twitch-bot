@@ -7,7 +7,7 @@ For more information about tmi.js follow the official website: https://tmijs.com
 
 I will add more functionallity in the future.
 
-
+<!-- PREREQUESITES -->
 ### Prerequisites
 
 1. Get a free API Key at [https://dev.twitch.tv/](https://dev.twitch.tv/)
@@ -35,6 +35,8 @@ I will add more functionallity in the future.
     channels: [''] /* Stream channel user */
     }
    ```
+
+<!-- RUN -->
 ## Runnning the bot
 
 Use the command bellow to run the bot, You can run the bot locally or online using platforms like Heroku.
@@ -45,14 +47,14 @@ Use the command bellow to run the bot, You can run the bot locally or online usi
 <!-- ROADMAP -->
 ## Roadmap
 
-- [✔] Basic commands
-- [✔] Subs, resubs, gifted subs message
-- [❌] Mods commands
-- [❌] Add Changelog
-- [❌] Raids notification
-- [❌] Timers
-- [❌] Counters
-- [❌] Database integration
+- [✔] Basic commands.
+- [✔] Subs, resubs, gifted subs message.
+- [❌] Mods commands.
+- [❌] Add Changelog.
+- [❌] Raids notification.
+- [❌] Timers.
+- [❌] Counters.
+- [❌] Database integration.
 
 
 See the [open issues](https://github.com/xaby-xd/xaby-simple-twitch-bot/issues) for a full list of proposed features (and known issues).
