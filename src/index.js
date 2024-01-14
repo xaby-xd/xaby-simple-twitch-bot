@@ -40,6 +40,24 @@ client.on('chat', (target, ctx, message, self) => {
         client.say(target, `${ctx.username}, Here is the command list: hello, !commands`);
     }
 
+    // Manejar eventos de suscripción
+    client.on('subscription', (channel, username, method, message, userstate) => {
+    // Manejar evento de suscripción
+    console.log(`${username} has subscribed to ${channel}´s with ${method}`);
+    // You can send a personalized message here
+    });
+
+    client.on('resub', (channel, username, months, message, userstate, methods) => {
+    // Manejar evento de resuscripción
+    console.log(`${username} has been resubscribed to ${channel}´s channel for ${months} months`);
+    // You can send a personalized message here
+    });
+
+    client.on('subgift', (channel, username, streakMonths, recipient, methods, userstate) => {
+    // Manejar evento de regalo de suscripción
+    console.log(`${username} has gifted a sub to ${recipient} on ${channel}´s chanel`);
+    // You can send a personalized message here
+    });
 
 
 })
