@@ -53,6 +53,6 @@ Use the command bellow to run the bot, You can run the bot locally or online usi
 - [❌] Database integration
 
 
-See the [open issues]() for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/xaby-xd/xaby-simple-twitch-bot/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
