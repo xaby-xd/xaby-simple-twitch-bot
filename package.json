@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env node src/index-pruebas.js"
+    "start": "cross-env node src/index.js"
   },
   "keywords": [],
   "author": "xaby_xd",
