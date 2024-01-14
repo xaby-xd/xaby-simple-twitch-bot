@@ -1,6 +1,6 @@
 {
-  "name": "CarnashBot",
-  "version": "1.0.0",
+  "name": "SimpleBot",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "xaby_xd",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cross-env": "^7.0.3",
     "dotenv": "^16.0.3",
