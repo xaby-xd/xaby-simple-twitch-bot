@@ -47,7 +47,9 @@ Use the command bellow to run the bot, You can run the bot locally or online usi
 
 - [✔] Basic commands
 - [✔] Subs, resubs, gifted subs message
+- [❌] Mods commands
 - [❌] Add Changelog
+- [❌] Raids notification
 - [❌] Timers
 - [❌] Counters
 - [❌] Database integration
