@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Control de Comandos del Bot</title>
+  </head>
+  <body>
+    <h1>Control de Comandos del Bot</h1>
+
+    <form>
+      <label for="commandName">Nombre del Comando:</label>
+      <input type="text" id="commandName" required />
+
+      <label for="commandResponse">Respuesta del Comando:</label>
+      <input type="text" id="commandResponse" required />
+
+      <button type="button" onclick="addCommand()">Añadir Comando</button>
+      <button type="button" onclick="editCommand()">Editar Comando</button>
+      <button type="button" onclick="deleteCommand()">Eliminar Comando</button>
+    </form>
+
+    <script src="bot-control.js"></script>
+  </body>
+</html>

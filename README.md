@@ -7,7 +7,7 @@ For more information about tmi.js follow the official website: https://tmijs.com
 
 I will add more functionallity in the future.
 
-<!-- PREREQUESITES -->
+<!-- PREREQUISITES -->
 ### Prerequisites
 
 1. Get a free API Key at [https://dev.twitch.tv/](https://dev.twitch.tv/)
