@@ -36,16 +36,18 @@ I will add more functionallity in the future.
     }
    ```
 
-<!-- RUN -->
-## Runnning the bot
-
-You can now use it and customize it as you need, use the command bellow to run the bot, You can run the bot locally or online using platforms like Heroku.
 
    ```js
        if (commandName === '!commands') {
         client.say(target, `${ctx.username}, Here is the command list: hello, !commands`);
     }
    ```
+
+
+<!-- RUN -->
+## Runnning the bot
+
+You can now use it and customize it as you need, use the command bellow to run the bot, You can run the bot locally or online using platforms like Heroku.
 
    ```sh
    node /src/index.js
