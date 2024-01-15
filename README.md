@@ -58,6 +58,7 @@ You can now use it and customize it as you need, use the command bellow to run t
 
 - [✔] Basic commands.
 - [✔] Subs, resubs, gifted subs message.
+- [🛠] Current song command (locally).
 - [❌] Mods commands.
 - [❌] Add Changelog.
 - [❌] Raids notification.
