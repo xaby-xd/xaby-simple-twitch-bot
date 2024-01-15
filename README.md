@@ -38,9 +38,8 @@ I will add more functionallity in the future. See the [Roadmap](https://github.c
 
 
    ```js
-       case 'song':
-                const fileContent = readAndSendFile(target, 'src/current_song.txt');
-                client.say(target, `${ctx.username} esta es la canción que está sonando: ${fileContent}`);
+       case 'test':
+                client.say(target, `${ctx.username} test command`);
                 break;
    ```
 
