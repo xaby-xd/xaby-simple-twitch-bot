@@ -41,21 +41,21 @@ client.on('chat', (target, ctx, message, self) => {
     }
 
     // Manejar eventos de suscripción
-    client.on('subscription', (channel, username, method, message, userstate) => {
+    client.on('subscription', (target, username, method, message, userstate) => {
     // Manejar evento de suscripción
-    console.log(`${username} has subscribed to ${channel}´s with ${method}`);
+    console.log(`${username} has subscribed to ${target}´s with ${method}`);
     // You can send a personalized message here
     });
 
-    client.on('resub', (channel, username, months, message, userstate, methods) => {
+    client.on('resub', (target, username, months, message, userstate, methods) => {
     // Manejar evento de resuscripción
-    console.log(`${username} has been resubscribed to ${channel}´s channel for ${months} months`);
+    console.log(`${username} has been resubscribed to ${target}´s channel for ${months} months`);
     // You can send a personalized message here
     });
 
-    client.on('subgift', (channel, username, streakMonths, recipient, methods, userstate) => {
+    client.on('subgift', (target, username, streakMonths, recipient, methods, userstate) => {
     // Manejar evento de regalo de suscripción
-    console.log(`${username} has gifted a sub to ${recipient} on ${channel}´s chanel`);
+    console.log(`${username} has gifted a sub to ${recipient} on ${target}´s chanel`);
     // You can send a personalized message here
     });
 
