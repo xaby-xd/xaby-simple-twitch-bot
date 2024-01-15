@@ -58,13 +58,13 @@ You can now use it and customize it as you need, use the command bellow to run t
 
 - [✔] Basic commands.
 - [✔] Subs, resubs, gifted subs message.
-- [🕐] Bot control-Web gui.
 - [❌] Mods commands.
 - [❌] Add Changelog.
 - [❌] Raids notification.
 - [❌] Timers.
 - [❌] Counters.
 - [❌] Database integration.
+- [❌] Bot control-Web gui.
 - [❌] Multi-language Support.
     - [❌] Spanish
     - [❌] English

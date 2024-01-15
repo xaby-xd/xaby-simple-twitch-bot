@@ -19,7 +19,7 @@ const client = new tmi.client(options)
 client.connect();
 
 client.on('connected', (address, port) => {
-    client.action('{stream user name}', `Bot is runing now, Use "!commands" to see the command list.`)
+    client.action('{streamer user name}', `Bot is runing now, Use "!commands" to see the command list.`)
 })
 
 /* ${address}:${port}   <- Show the port that will use the bot */
