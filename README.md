@@ -5,7 +5,7 @@ Simple twitch bot for simple chat interactions and commands on Node.js and Tmi.j
 
 For more information about tmi.js follow the official website: https://tmijs.com/
 
-I will add more functionallity in the future.
+I will add more functionallity in the future. See the [Roadmap](https://github.com/xaby-xd/xaby-simple-twitch-bot?tab=readme-ov-file#roadmap)
 
 <!-- PREREQUISITES -->
 ### Prerequisites
