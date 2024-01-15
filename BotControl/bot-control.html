@@ -55,6 +55,26 @@
     button:hover {
       background-color: #0056b3;
     }
+
+    #commandList {
+      max-width: 300px;
+      margin: 20px auto;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #f8f8f8;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #commandList ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    #commandList li {
+      margin-bottom: 5px;
+    }
   </style>
 </head>
 <body>
@@ -71,6 +91,11 @@
     <button type="button" onclick="editCommand()">Editar Comando</button>
     <button type="button" onclick="deleteCommand()">Eliminar Comando</button>
   </form>
+
+  <div id="commandList">
+    <h2>Comandos Disponibles</h2>
+    <ul id="commandItems"></ul>
+  </div>
 
   <script src="bot-control.js"></script>
 </body>

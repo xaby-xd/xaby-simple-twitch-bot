@@ -65,6 +65,9 @@ You can now use it and customize it as you need, use the command bellow to run t
 - [❌] Timers.
 - [❌] Counters.
 - [❌] Database integration.
+- [❌] Multi-language Support.
+    - [❌] Spanish
+    - [❌] English
 
 
 See the [open issues](https://github.com/xaby-xd/xaby-simple-twitch-bot/issues) for a full list of proposed features (and known issues).
