@@ -19,7 +19,7 @@ I will add more functionallity in the future.
   npm install dotenv@latest
   ```
 
-3. After configuring the bot, you can now use it and customize it as you need.
+3. After running the bot you will need to configure it.
    ```js
     const options = {
     options: {
@@ -39,7 +39,14 @@ I will add more functionallity in the future.
 <!-- RUN -->
 ## Runnning the bot
 
-Use the command bellow to run the bot, You can run the bot locally or online using platforms like Heroku.
+You can now use it and customize it as you need, use the command bellow to run the bot, You can run the bot locally or online using platforms like Heroku.
+
+   ```js
+       if (commandName === '!commands') {
+        client.say(target, `${ctx.username}, Here is the command list: hello, !commands`);
+    }
+   ```
+
    ```sh
    node /src/index.js
    ```
