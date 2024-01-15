@@ -38,9 +38,10 @@ I will add more functionallity in the future. See the [Roadmap](https://github.c
 
 
    ```js
-       if (commandName === '!commands') {
-        client.say(target, `${ctx.username}, Here is the command list: hello, !commands`);
-    }
+       case 'song':
+                const fileContent = readAndSendFile(target, 'src/current_song.txt');
+                client.say(target, `${ctx.username} esta es la canción que está sonando: ${fileContent}`);
+                break;
    ```
 
 
