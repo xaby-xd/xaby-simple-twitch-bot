@@ -7,6 +7,21 @@ For more information about tmi.js follow the official website: https://tmijs.com
 
 I will add more functionallity in the future. See the [Roadmap](https://github.com/xaby-xd/xaby-simple-twitch-bot?tab=readme-ov-file#roadmap).
 
+### Built With
+
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Vue][Vue.js]][Vue-url]
+* [![Angular][Angular.io]][Angular-url]
+* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- PREREQUISITES -->
 ### Prerequisites
 
@@ -59,13 +74,14 @@ You can now use it and customize it as you need, use the command bellow to run t
 - [✔] Basic commands.
 - [✔] Subs, resubs, gifted subs message.
 - [🛠] Current song command (locally).
+- [🛠] Bot control-Web gui.
 - [❌] Mods commands.
 - [❌] Add Changelog.
 - [❌] Raids notification.
 - [❌] Timers.
 - [❌] Counters.
 - [❌] Database integration.
-- [❌] Bot control-Web gui.
+- [❌] Discord integration.
 - [❌] Multi-language Support.
     - [❌] Spanish
     - [❌] English

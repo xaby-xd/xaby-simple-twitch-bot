@@ -11,7 +11,7 @@ const options = {
         username: '', /* Username for the account the bot will use */
         password: '' /* oauth:{token} */
     },
-    channels: [''] /* Stream channel user */
+    channels: [''], /* Stream channel user */
 }
 
 const client = new tmi.client(options)
@@ -61,3 +61,5 @@ client.on('chat', (target, ctx, message, self) => {
 
 
 })
+
+module.exports = { client };
