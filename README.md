@@ -69,7 +69,7 @@ You can now use it and customize it as you need, use the command bellow to run t
 - [🛠] Current song command (locally).
 - [🛠] Bot control-Web gui.
 - [❌] Mods commands.
-- [❌] Add Chatlog.
+- [🛠] Add Chatlog.
 - [❌] Raids notification.
 - [❌] Channel points actions.
 - [❌] Timers.
