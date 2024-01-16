@@ -11,7 +11,9 @@ I will add more functionallity in the future. See the [Roadmap](https://github.c
 
 This section should list any major frameworks/libraries used to bootstrap this project.
 
-
+[Node.js](https://nodejs.org/en)
+[Tmi.js](https://tmijs.com/)
+[Dotenv](https://www.npmjs.com/package/dotenv)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
