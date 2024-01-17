@@ -14,6 +14,7 @@ This section should list any major frameworks/libraries used to bootstrap this p
 [Node.js](https://nodejs.org/en)
 [Tmi.js](https://tmijs.com/)
 [Dotenv](https://www.npmjs.com/package/dotenv)
+[fs-js](https://www.npmjs.com/package/fs-js)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -27,6 +28,7 @@ This section should list any major frameworks/libraries used to bootstrap this p
   ```sh
   npm install tmi.js@latest
   npm install dotenv@latest
+  npm install fs-js@latest
   ```
 
 3. After running the bot you will need to configure it.
