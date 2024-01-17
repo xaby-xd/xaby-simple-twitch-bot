@@ -60,7 +60,9 @@ This section should list any major frameworks/libraries used to bootstrap this p
 You can now use it and customize it as you need, use the command bellow to run the bot, You can run the bot locally or online using platforms like [Heroku](https://www.heroku.com/).
 
    ```sh
-   node /src/index.js
+   node /src/bot.js
+   or
+   node start
    ```
 
 <!-- ROADMAP -->
