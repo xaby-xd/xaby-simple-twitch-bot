@@ -78,7 +78,8 @@ You can now use it and customize it as you need, use the command bellow to run t
 - [❌] Database integration.
     - [❌] Counters.
 - [❌] Discord integration.
-- [❌] Multi-language Support.
+- [❌] API Integrations.
+- [❌] Multi-language Support (Docs).
     - [❌] Spanish
     - [❌] English
 
