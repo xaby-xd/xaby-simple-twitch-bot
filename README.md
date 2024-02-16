@@ -76,7 +76,8 @@ You can now use it and customize it as you need, use the command bellow to run t
 - [✔] Subs, resubs, gifted subs message.
 - [🛠] Current song command (locally).
 - [🛠] Bot control-Web gui.
-- [❌] Mods commands.
+- [🛠] Mods commands.
+- [🛠] API Integrations.
 - [🛠] Add Chatlog.
 - [❌] Raids notification.
 - [❌] Channel points actions.
@@ -84,7 +85,6 @@ You can now use it and customize it as you need, use the command bellow to run t
 - [❌] Database integration.
     - [❌] Counters.
 - [❌] Discord integration.
-- [❌] API Integrations.
 - [❌] Multi-language Support (Docs).
     - [❌] Spanish
     - [❌] English
