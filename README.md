@@ -70,24 +70,24 @@ You can now use it and customize it as you need, use the command bellow to run t
 <!-- ROADMAP -->
 ## Roadmap
 
----> ✔ Done. - 🛠 Working on it. - ❌ Planned.
+---> ✔ Done. - 🛠 Working on it. - ⭕ Planned. - ❌ Will not doing that.
 
 - [✔] Basic commands.
 - [✔] Subs, resubs, gifted subs message.
 - [🛠] Current song command (locally).
-- [🛠] Bot control-Web gui.
+- [🛠-❌] Bot control-Web gui.
 - [🛠] Mods commands.
 - [🛠] API Integrations.
 - [🛠] Add Chatlog.
-- [❌] Raids notification.
-- [❌] Channel points actions.
-- [❌] Timers.
-- [❌] Database integration.
-    - [❌] Counters.
-- [❌] Discord integration.
-- [❌] Multi-language Support (Docs).
-    - [❌] Spanish
-    - [❌] English
+- [⭕] Raids notification.
+- [⭕] Channel points actions.
+- [⭕] Timers.
+- [⭕] Database integration.
+    - [⭕] Counters.
+- [⭕] Discord integration.
+- [⭕] Multi-language Support (Docs).
+    - [⭕] Spanish
+    - [⭕] English
 
 
 See the [open issues](https://github.com/xaby-xd/xaby-simple-twitch-bot/issues) for a full list of proposed features (and known issues).
