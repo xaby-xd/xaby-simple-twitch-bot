@@ -79,6 +79,7 @@ You can now use it and customize it as you need, use the command bellow to run t
 - [🛠] Mods commands.
 - [🛠] API Integrations.
 - [🛠] Add Chatlog.
+- [🛠] CLI Commands.
 - [⭕] Raids notification.
 - [⭕] Channel points actions.
 - [⭕] Timers.
