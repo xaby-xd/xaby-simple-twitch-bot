@@ -7,7 +7,7 @@ For more information about tmi.js follow the official website: https://tmijs.com
 
 I will add more functionallity in the future. See the [Roadmap](https://github.com/xaby-xd/xaby-simple-twitch-bot?tab=readme-ov-file#roadmap).
 
-### Built With
+### Built in With
 
 This section should list any major frameworks/libraries used to bootstrap this project.
 
