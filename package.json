@@ -1,19 +1,26 @@
 {
-  "name": "SimpleBot",
-  "version": "1.0.5",
+  "name": "carnashbot",
+  "version": "1.2.5",
   "description": "",
   "main": "bot.js",
   "scripts": {
-    "start": "cross-env node src/bot.js"
+    "bot": "cross-env node src/bot.js",
+    "songapi": "cross-env node api/apiserver.js",
+    "rankapi": "cross-env node api/lolapi-client.js"
   },
   "keywords": [],
   "author": "xaby_xd",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
+    "axios": "^1.6.7",
     "cross-env": "^7.0.3",
-    "dotenv": "^16.0.3",
-    "node-fetch": "^3.3.1",
-    "request-promise": "^4.2.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "kleur": "^4.1.5",
+    "node-fetch": "^3.3.2",
+    "request-promise": "^0.0.1",
+    "sqlite3": "^5.1.7",
     "tmi.js": "^1.8.5"
   },
   "devDependencies": {
