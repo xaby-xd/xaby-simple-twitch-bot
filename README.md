@@ -29,6 +29,9 @@ This section should list any major frameworks/libraries used to bootstrap this p
   npm install tmi.js@latest
   npm install dotenv@latest
   npm install fs-js@latest
+  npm install kleur@latest
+  npm install axios@latest
+  npm install express@latest
   ```
 
 3. After running the bot you will need to configure it.
@@ -38,7 +41,10 @@ This section should list any major frameworks/libraries used to bootstrap this p
         debug: true
     },
     connection: {
-        reconnect: true
+        reconnect: true,
+        secure: true,
+        timeout: 10000,
+        maxReconnectAttempts: 5
     },
     identity: {
         username: '', /* Username for the account the bot will use */
@@ -51,7 +57,7 @@ This section should list any major frameworks/libraries used to bootstrap this p
 
    ```js
        case 'test':
-                client.say(target, `${ctx.username} test command`);
+                client.say(target, 'This is a test.');
                 break;
    ```
 
@@ -73,21 +79,21 @@ You can now use it and customize it as you need, use the command bellow to run t
 ---> ✔ Done. - 🛠 Working on it. - ⭕ Planned. - ❌ Will not doing that.
 
 - [✔] Basic commands.
-- [✔] Subs, resubs, gifted subs message.
-- [🛠] Current song command (locally).
+- [🛠] Subs, resubs, gifted subs message.
+- [✔] Current song command (locally).
 - [🛠-⭕-❌] Bot control-Web gui.
 - [🛠] Mods commands.
-- [🛠] API Integrations.
-- [🛠] Add Chatlog.
-- [🛠] CLI Commands.
+- [✔] API Integrations.
+- [✔] Add Chatlog.
+- [✔] CLI Commands.
 - [⭕] Raids notification.
 - [⭕] Channel points actions.
 - [⭕] Timers.
 - [⭕] Database integration.
     - [⭕] Counters.
 - [⭕] Discord integration.
-- [⭕] Multi-language Support (Docs).
-    - [⭕] Spanish
+- [🛠] Multi-language Support (Docs).
+    - [✔] Spanish
     - [⭕] English
 
 
