@@ -34,7 +34,7 @@ This section should list any major frameworks/libraries used to bootstrap this p
   npm install express@latest
   ```
 
-3. After running the bot you will need to configure it.
+3. Before running the bot you will need to configure it.
    ```js
     const options = {
     options: {
