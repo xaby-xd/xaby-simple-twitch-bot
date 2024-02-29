@@ -15,6 +15,9 @@ This section should list any major frameworks/libraries used to bootstrap this p
 [Tmi.js](https://tmijs.com/)
 [Dotenv](https://www.npmjs.com/package/dotenv)
 [fs-js](https://www.npmjs.com/package/fs-js)
+[Axios](https://www.npmjs.com/package/axios)
+[Express](https://www.npmjs.com/package/express)
+[Kleur](https://www.npmjs.com/package/kleur)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
