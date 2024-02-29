@@ -70,7 +70,7 @@ You can now use it and customize it as you need, use the command bellow to run t
    ```sh
    node /src/bot.js
    or
-   node start
+   npm run bot
    ```
 
 <!-- ROADMAP -->
